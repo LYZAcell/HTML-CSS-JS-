@@ -12,3 +12,5 @@
 - 그룹짓기 연습 및 목록 관련 태그 학습(I studied Grouping & listing tag)
 - classify the paragraphs with div and span
 - list the elements with dl(description list),ul(unordered list) and ol(ordered list)
+
+### 아직 3.4~ 업로드 X. 누락하지 말것. 
