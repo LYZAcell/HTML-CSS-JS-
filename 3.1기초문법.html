@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Grammar for HTML 3.1 </title>
+</head>
+<body>
+
+    <!-- <hn>태그는 검색 엔진에서 키워드로 인식. 핵심을 골라서 잘 입력할 필요성-->
+    <h1> heading level 1</h1>
+    <h3> hn태그 특: 검색을 순서대로함. 1다음에 2없으면 3이후로는 찾아보지도 않음 </h3>
+    <h6> heading level 6까지 있습니다. </h6>
+
+    <!-- <p>태그는 문단 작성 시 사용. 내용 입력-->
+    <p> 내용은 p태그를 활용하여 입력하여야합니다. </p>
+
+    <!-- <br>태그는 줄바꿈. close tag 필요 없음.-->
+    <p> 안녕하세요, 
+        줄바꿈이 되었습니까?</p>
+    <p> 안녕하세요,<br>
+    코딩하기 좋은 날입니다~</p>
+
+    <!-- blockquote태그는 출처를 나타낸다. cite속성안에 url, 이후 인용문 -->
+    <blockquote cite = "https://ko.wikipedia.org/wiki/HTML">
+        <p>하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다. 
+            또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공한다. 
+            그리고 이미지와 객체를 내장하여 대화형 양식을 생성하는 데 사용될 수 있다. </p>
+        <p> blockquote는 꼭 하나 이상의 p태그를 포함해야한다. 단독으로 쓸 수 없다! </p>
+    </blockquote>
+
+    <!-- <q>태그는 간단한 인용문에 사용된다. -->
+    <p> 디즈니에 따르면 <q cite = "https://namu.wiki/w/%EA%B2%A8%EC%9A%B8%EC%99%95%EA%B5%AD">
+        겨울왕국은 안데르센의 동화 '눈의 여왕'에서 영감을 받았다. </q>
+    </p>
+
+    <!-- 추가텍스트 <ins> 삭제텍스트 <del> -->
+    <p> 수강 신청 기간을 맞이하여 <del>햄버거</del><ins> 김밥</ins>행사를 시작합니다. </p>
+
+    <!-- sub은 아래첨자, sup은 위첨자 입니다.-->
+    <p> 공기의 원소기호는 H<sub>2</sub>O</p>
+    <p>4<sup>2</sup> = 16 </p>
+</body>
+</html>
