@@ -13,4 +13,8 @@
 - classify the paragraphs with div and span
 - list the elements with dl(description list),ul(unordered list) and ol(ordered list)
 
-### 아직 3.4~ 업로드 X. 누락하지 말것. 
+## Feb 1st: 링크와 이미지 넣기, 텍스트 강조하기 (75p~81p)
+- a태그 실습: a href = "링크", target, title: 링크 넣고 제목 띄우기, 열리는 방식 정의
+- img태그: img src = "경로" alt= "뜨는 말". a태그로 링크 넣기 가능
+- strong: 문자열 강조. 옛날에는 b였지만 현재는 쓰지 않는다
+- em: 기울여 쓰기. i였지만 더이상 쓰지 않는다. 중첩 가능
