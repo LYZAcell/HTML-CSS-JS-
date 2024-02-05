@@ -22,3 +22,7 @@
 ## Feb 2nd~3rd: 폼 구성하기
 - 상호작용 요소의 구성
 - input 타입 구성하기 
+
+## Feb 4th~5th: 폼 구성하기
+- input 타입 구성 보충 및 이미지 사이즈 구성.
+- label 태그와 fieldset
