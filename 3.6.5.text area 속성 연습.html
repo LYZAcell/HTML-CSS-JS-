@@ -9,16 +9,63 @@
                 <fieldset>
                     <legend> 블로그 글쓰기 </legend>
                     <p>
-                        <label for = "title">제목
+                        <label for = "title">제목<!-- input으로 받기 -->
                             <input type = "text" id = "title" name = "title">
                             </label>
                     </p>
                     <p>
-                        <label for = "desc"> 내용
+                        <label for = "desc"> 내용<!-- 여러줄 입력 가능 -->
                             <textarea id = "desc" name = "desc"></textarea>
+                            <!--input과 textarea 차이점: textarea는 닫는 태그 존재.-->
                         </label>
                     </p>
                 </fieldset>
             </form>
-        </body>
-        </html>
+
+        <!-- select 태그를 통한 콤보 박스 생성. 항목 추가시 option, 그룹 묶을 시 optgroup
+        value로 option 설정. 생략 시 option 태그의 콘텐츠가 텍스트 값.
+        optiongroup태그 항목들을 그룹 지을 시 label로 그룹명 지정 -->
+        <select name = "city" id = "city">
+        <option value = "강북구">강북구</option>
+        <option value = "강남구">강남구</option>
+        <option value = "성북구">성북구</option>
+        <option value = "분당구">분당구</option>
+        </select>
+
+        <h3>selectbox optgroup으로 그룹짓기</h3>
+        <select name = "city" id = "city">
+            <optgroup label = "서울시">
+                <option value = "강북구">강북구</option>
+                <option value = "성북구">성북구</option>
+                <option value = "서초구">서초구</option>
+            </optgroup>
+
+            <optgroup label = "경기도 성남시">
+                <option value = "분당구">분당구</option>
+                <option value = "중원구">중원구</option>
+            </optgroup>
+        </select>
+
+        <h3> size로 한번에 보이는양 조절하기 </h3>
+        <!-- size 3 = 한번 보이는 양이 3개 -->
+        <select name = "city" id = "city" size = "3">
+            <option value = "강북구">강북구</option>
+            <option value = "강남구">강남구</option>
+            <option value = "성북구">성북구</option>
+            <option value = "분당구">분당구</option>
+            <option value = "중원구">중원구</option>
+            <option value = "사상구">사상구</option>
+        </select>
+
+        <h3> multiple 속성: 여러개 선택 가능. ctrl 활용</h3>
+        <h4> selected 속성을 활용하여 기본 설정값 넣어주기</h4>
+        <select name = "city" id = "city" multiple>
+            <option value = "서울시">서울시</option>
+            <option value = "강북구">강북구</option>
+            <option value = "강남구">강남구</option>
+            <option value = "성북구">성북구</option>
+            <option value = "분당구">분당구</option>
+        </select>
+
+</body>
+</html>
