@@ -27,5 +27,13 @@
 - input 타입 구성 보충 및 이미지 사이즈 구성.
 - label 태그와 fieldset
 
-## Feb 6th~: 폼 구성하기
+## Feb 6th: 폼 구성하기
 - textarea를 통한 여러줄 입력 가능한 블로그 양식 만들기
+
+## Feb 7th: select 구성하기
+- select로 선택하는 상자 만들기. option, optbox 활용
+- size로 한번에 보일 양 선택하기
+- multiple로 여러개 선택가능하게 하기
+- selected 설정으로 디폴트 값 설정하기
+
+## Feb 8th: button 구성하기
