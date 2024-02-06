@@ -26,3 +26,6 @@
 ## Feb 4th~5th: 폼 구성하기
 - input 타입 구성 보충 및 이미지 사이즈 구성.
 - label 태그와 fieldset
+
+## Feb 6th~: 폼 구성하기
+- textarea를 통한 여러줄 입력 가능한 블로그 양식 만들기
