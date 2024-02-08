@@ -19,18 +19,18 @@
 - strong: 문자열 강조. 옛날에는 b였지만 현재는 쓰지 않는다
 - em: 기울여 쓰기. i였지만 더이상 쓰지 않는다. 중첩 가능
 
-## Feb 2nd~3rd: 폼 구성하기
+## Feb 2nd~3rd: 폼 구성하기(82p~85p)
 - 상호작용 요소의 구성
 - input 타입 구성하기 
 
-## Feb 4th~5th: 폼 구성하기
+## Feb 4th~5th: 폼 구성하기(85p~86p)
 - input 타입 구성 보충 및 이미지 사이즈 구성.
 - label 태그와 fieldset
 
-## Feb 6th: 폼 구성하기
+## Feb 6th: 폼 구성하기(86~90p)
 - textarea를 통한 여러줄 입력 가능한 블로그 양식 만들기
 
-## Feb 7th: select 구성하기
+## Feb 7th: select 구성하기(90~92p)
 - select로 선택하는 상자 만들기. option, optbox 활용
 - size로 한번에 보일 양 선택하기
 - multiple로 여러개 선택가능하게 하기
