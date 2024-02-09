@@ -36,4 +36,8 @@
 - multiple로 여러개 선택가능하게 하기
 - selected 설정으로 디폴트 값 설정하기
 
-## Feb 8th: button 구성하기
+## Feb 8th: button 구성하기(92p~97p)
+- button 태그 구성
+- disabled, readonly, maxlength, checked, placeholder 속성
+
+## Feb 9th: 3.7 표 만들기 시작 (98p~)
