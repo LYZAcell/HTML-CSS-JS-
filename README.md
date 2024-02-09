@@ -41,3 +41,4 @@
 - disabled, readonly, maxlength, checked, placeholder 속성
 
 ## Feb 9th: 3.7 표 만들기 시작 (98p~)
+- 3.7,3.8
