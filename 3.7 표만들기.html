@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>3.7표만들기 시작 (98p~107p)</title>
+</head>
+<body>
+
+    <table>
+    <tr>
+        <th>번호</th>
+        <th>상태명</th>
+        <th>수량</th>
+        <th>가격</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>콜라</td>
+        <td>1개</td>
+        <td>1500원</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>사이다</td>
+        <td>2개</td>
+        <td>1000원</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>탄산수</td>
+        <td>5개</td>
+        <td>1000원</td>
+    </tr>
+    </table>
+
+    <br><br>
+    <table>
+    <caption> <h4>rowspan, colspan 연습</h4></caption>
+    <tr>
+        <th>번호</th>
+        <th>상태명</th>
+        <th>수량</th>
+        <th>가격</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>콜라</td>
+        <td>1개</td>
+        <td>1500원</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>사이다</td>
+        <td>2개</td>
+        <td>1000원</td>
+        <td rowspan = "2">1000원</td><!--행병합-->
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>탄산수</td>
+        <td>5개</td>
+        <td>1000원</td>
+    </tr>
+
+    <tr>
+        <td>총 금액</td>
+        <td colspan = "3"> 6500원</td><!--열병합-->
+    </tr>
+    </table>
+
+    <br><br>
+    <table>
+    <caption> <h4>웹접근성 향상을 위한 thead,tfoot,tbody 실습 </h4></caption>
+        <!-- 순서 중요. thead, tfoot, tbody 순. tfoot은 최종행에 온다-->
+    <thead><tr>
+        <th>번호</th>
+        <th>상태명</th>
+        <th>수량</th>
+        <th>가격</th>
+    </tr></thead>
+
+    <tfoot><tr>
+        <td>총 금액</td>
+        <td colspan = "3"> 6500원</td><!--열병합-->
+    </tr></tfoot>
+
+    <tbody><tr>
+        <td>1</td>
+        <td>콜라</td>
+        <td>1개</td>
+        <td>1500원</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>사이다</td>
+        <td>2개</td>
+        <td>1000원</td>
+        <td rowspan = "2">1000원</td><!--행병합-->
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>탄산수</td>
+        <td>5개</td>
+        <td>1000원</td>
+    </tr></tbody>
+    </table>
+
+    <br><br>
+    <table>
+        <caption> <h4>표 크기 조정하는 col, colgroup 실습 </h4></caption>
+        <col style="width: 80px">
+        <!-- 2~3열의 넓이는 150 -->
+        <colgroup span = "2" style="width: 150px"></colgroup>
+        <!-- 4열은 100 px -->
+        <col style = "width: 100px">
+        <tr>
+            <th>번호</th>
+            <th>상태명</th>
+            <th>수량</th>
+            <th>가격</th>
+        </tr>
+    
+        <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td>
+            <td>1500원</td>
+        </tr>
+    
+        <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td>
+            <td>1000원</td>
+        </tr>
+    
+        <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>5개</td>
+            <td>1000원</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <table>
+        <caption><h4>제목 영역을 명확히 해주는 scope</h4></caption>
+        <!-- 웹탐색 시 제목 범위를 설정해주는 역할을 한다.-->
+        <tr>
+            <th scope = "col">구분</th>
+            <th scope = "col">중간고사</th>
+            <th scope = "col">기말고사</th>
+        </tr>
+        <tr>
+            <th scope = "row">전공</th>
+            <td>A+</td>
+            <td>B+</td>
+        </tr>
+
+        <tr>
+            <th scope = "row">교양</th>
+            <td>C-</td>
+            <td>B</td>
+        </tr>
+    </table>
+</body>
+</html>
