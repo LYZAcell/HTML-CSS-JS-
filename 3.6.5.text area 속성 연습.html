@@ -67,5 +67,45 @@
             <option value = "분당구">분당구</option>
         </select>
 
+        <h4> button 태그 연습하기 </h4>
+        <!-- 전송은  submit, 초기화는 reset, 단순한 버튼은 button -->
+        <button type = "submit">
+            <img src = "images/emoji.png" alt = "이모티콘 버튼">
+            이모티콘을 눌러봐용
+        </button>
+        
+        <br><br>
+        <!-- input, textarea,select,button 태그에서 비활성화 할 수 있는 disabled 태그 -->
+        <input type = "text" disabled>
+        <button type = "button" disabled> 비활성 실습 </button>
+
+        <br>
+        <h4> readonly 실습 :읽기전용 모드. 복붙,읽기 가능 </h4>
+        <input type = "password" readonly>
+        <textarea readonly>읽기 전용 모드입니다. 내용을 입력할 수 없습니다.</textarea>
+
+        <br>
+        <h4> 글자수 제한하는 maxlength </h4>
+        <input type = "url" maxlength = "4">
+        <textarea maxlength = "20">열글자 입력 가능</textarea>
+
+        <br>
+        <h4>요소를 선택한 채로 보여주는 checked</h4>
+        <fieldset>
+            <legend> 좋아하는 과일 </legend>
+            <input type = "checkbox" id = "banana" name = "banana" value="banana">
+            <label for = "banana">바나나</label><br>
+
+            <input type = "checkbox" id = "apple" name = "apple" value="apple">
+            <label for = "apple"> 사과 </label><br>
+
+            <input type = "checkbox" id = "orange" name = "orange" value = "orange" checked>
+            <label for = "orange"> 오렌지 </label><br>
+        </fieldset>
+
+        <br>
+        <h4>본문의 내용에 힌트를 주는 placeholder</h4>
+        <input type = "tel" placeholder="전화번호를 입력해주세요(-생략)"
+
 </body>
 </html>
