@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>연습문제 3.9.2로그인화면 만들기</title>
+</head>
+<body>
+    <form action = "#">
+        <fieldset>
+            <legend>소셜 로그인</legend>
+            <button type = "button">
+                <img src = "images/googlelogin.png" alt = "구글 로그인 버튼"
+                Login with Google
+            </button>
+        </fieldset>
+
+        <fieldset>
+            <legend>일반 로그인</legend>
+            <!-- 아이디와 비밀번호를 입력합니다. -->
+            <!-- 입력 안했을 시 placeholder도 설정 -->
+            <label for = "username">
+                <input type = "text" id = "username" name = "username" placeholder = "Username">
+            </label>
+            <br>
+            <label for = "password">
+                <input type = "password" id = "password" name = "password" placeholder="Password">
+            </label>
+            <br>
+            <button type = "submit">
+                Login
+            </button>
+
+            <p>or</p>
+
+            <a href = "#"> Forget your password?</a>
+        </fieldset>
+    </form>
+</body>
+</html>
