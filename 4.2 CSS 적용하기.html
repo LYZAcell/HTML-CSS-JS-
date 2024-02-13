@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>내부 스타일 시트(Internal Style Sheet)&외부(external)</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+        /*css 주석 양식 */
+
+        /* 5.1 태그 선택자*/
+        p{
+            color:aqua
+        }
+
+        /*아이디 선택자. 아이디를 지정하여 사용하는 방법. 아이디는 고유해야함.*/
+        #title{
+            color:goldenrod;
+        }
+
+        /*클래스 선택자*/
+        .red{
+            color:red;
+        }
+        .blue{
+            color:blue
+        }
+        
+        /*기본 선택자: CSS속성을 지정하여 사용하기*/
+         a[href]{
+            color:red;
+            display:block;
+         }
+    </style>
+
+    <link rel = "stylesheet" href = "4.2외부스타일시트.css">
+</head>
+<body>
+    <h1>내부 스타일 시트</h1>
+    <h2>그냥 h2스타일 시트</h2>
+    <h3>외부스타일시트</h3>
+    
+    <p>태그선택자 적용여부 <ins>확인중</ins>ㅎㅎㅎ</p>
+
+    <h4 id = "title">아이디 선택자 실습하는 중</h4>
+
+    <p class = "red">클래스 선택자 실습하는 중 </p>
+    <p class = "blue">클래스 선택자 실습하는 중 </p>
+    
+    <!--기본선택자로 인해 빨간색 적용-->
+    <a href = "#dd">기본 a 태그</a>
+    <a href = '#' target = "_blank">새창으로 열리는 a 태그</a>
+
+
+</body>
+</html>
