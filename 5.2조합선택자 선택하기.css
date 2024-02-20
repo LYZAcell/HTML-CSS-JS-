@@ -1,0 +1,17 @@
+
+/*그룹 선택자 실습*/
+/*CSS일 시 같은 코드를 아래와 같이 작성*/
+p{ color:red;
+}
+#title{color:red;
+}
+.red{color:red;
+}
+<h3>그룹선택자로 아래와 같이 입력 가능</h3>
+p,#title, .red {color:red;
+}
+
+/*부모 선택자>자식 선택자{/*CSS코드양식}*/
+.box > p{
+    color:red;
+}
