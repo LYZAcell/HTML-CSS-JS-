@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "Ko">
+    <head>
+        <title>5.3~5.4가상 요소선택자, 클래스 사용하기(155~)</title>
+        <style>
+            p::before{
+                content:'<before>';
+            }
+            p::after{
+                content:'<after>';
+            }
+
+            a:link{/*한번도 방문한적 없는 링크*/
+            color:orange;
+            }
+            a:visited{/*한번이라도 방문한 적이 있는링크*/
+            color:green;}
+
+            p:hover{/*마우스 올릴시 선택자로 지정. 클릭은 active*/
+            color:aqua;}
+            button:active{/*클릭 시 활성화*/
+                color:midnightblue;
+            }
+            input:focus{/*입력 요소에커서 활성화 시 적용*/
+                color:olivedrab;
+            }
+            input:checked+label{/*체크된 요소에 적용*/
+                color:blueviolet;
+            }
+            input:disabled,
+            button:disabled{/*비활성화 요소에 회색(ccc)적용*/
+                background-color: #ccc;
+            }
+            
+            input:enabled,
+            button:enabled{/*활성화 요소에 아쿠아마린색 적용*/
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <!--가상실행요소 155p실습-->
+        <p>Lorem,ipis,dolor.</p>
+
+        <!--input disabled, 등 버튼 실습-->
+        <input type = "text" disabled>
+        <button disabled>버튼</button>
+
+        <!--input enabled버튼 실습-->
+        <input type = "text">
+        <button>확인 버튼</button>
+
+    </body>
+</html>
