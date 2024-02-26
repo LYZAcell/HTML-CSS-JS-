@@ -74,3 +74,6 @@
 ## Fev 22~23th: 가상 선택자 클래스
 - 입력 요소 가상클래스 선택자(checked, disabled)
 - 구조적 가상클래스 선택자(nth-child, nth-last-child)
+
+## Feb 24th: 파이썬 알고리즘 공부
+- 출력_꼬마 정민(map 쓰지 않기)
