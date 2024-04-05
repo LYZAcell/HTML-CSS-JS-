@@ -1,0 +1,82 @@
+
+/*drop it로고*/
+.logo_gy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 140px; /* 텍스트 크기 조정 */
+    font-weight: 600;
+    color: white; /* 초기 텍스트 색상 설정 */
+    -webkit-text-stroke-width: 4px; /* 테두리 두께 설정 */
+    -webkit-text-stroke-color: black; /* 테두리 색상 설정 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    
+
+    border: none; /* 외곽선 스타일 설정 */
+    display: inline-block; /* 요소를 인라인 블록으로 표시하여 텍스트 크기에 맞게 자동으로 조정되도록 함 */
+    transition: color 0.3s; /* 색상 변화에 애니메이션 효과 추가 */
+}
+
+.big-text:hover {
+    color: pink; /* 마우스를 요소 위로 가져갈 때 텍스트 색상 변경 */
+}
+
+.line_remove{
+        text-decoration: none; /* 밑줄 제거 */
+}
+
+/*분 입력 문장 class*/
+.minuite_gy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*분입력 문장 span class*/
+.m_span_gy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke; /* 배경색 */
+    color: black; /* 텍스트 색상 */
+    font-size: 35px;
+
+}
+
+/*분 입력 input class*/
+.m_input_gy{
+    width: 100px;
+    height: 50px;
+
+    text-align: center; 
+    font-size: 30px;
+    border: 2px solid grey; /* 검은색 실선 경계 설정 */
+    border-radius: 15px; /* 경계의 모서리를 둥글게 만듭니다. */
+    padding: 10px 20px; /* 내부 여백 설정 */
+    color: rgb(29, 29, 29); /* 텍스트 색상 설정 */
+}
+
+.m_input_gy::placeholder {
+    text-align: center; 
+    font-size: 20px;
+
+}
+
+
+.recom_gy {
+    display: flex;
+    flex-wrap: wrap; /* 요소들이 한 줄에 나열되되 너비를 벗어나면 다음 줄로 넘어감 */
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+}
+
+.r_word_gy {
+    margin: 5px; /* 요소들 사이에 간격을 주기 위해 마진 설정 */
+    font-weight: 600;
+    background-color: whitesmoke; /* 배경색 */
+    color: black; /* 텍스트 색상 */
+}
+
