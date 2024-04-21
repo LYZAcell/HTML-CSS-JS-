@@ -79,4 +79,8 @@
 - 출력_꼬마 정민(map 쓰지 않기)
 
 ## Apr 21th: JS 기본문법
-- 3주차 JS 기본 문법 문서 1 (~while, for, 화살표 함수 등) 복습
+- 멋사 FE 3주차 JS 기본 문법 문서 1
+- let, var, const
+- for, while, if , switch-case
+- 화살표함수
+- 백팁 `
