@@ -84,3 +84,6 @@
 - for, while, if , switch-case
 - 화살표함수
 - 백팁 `
+
+## Apr 26th : 리액트 기초
+- HTML 및 JS 연동방법 기초
