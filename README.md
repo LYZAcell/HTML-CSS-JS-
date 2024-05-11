@@ -87,3 +87,7 @@
 
 ## Apr 26th : 리액트 기초
 - HTML 및 JS 연동방법 기초
+
+## May 12th: velog 개시
+- JS 상식 및 이벤트루프 글 작성
+- (https://velog.io/@brillante03/posts)
